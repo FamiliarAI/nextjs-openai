@@ -1,0 +1,1 @@
+if(typeof window<"u")throw new Error("Node globals cannot be used in the browser.");if(!process.env.OPENAI_API_KEY)throw new Error("OPENAI_API_KEY is not defined.");const{OPENAI_API_KEY:e,TWITTER_BEARER_TOKEN:o}=process.env;export{e as OPENAI_API_KEY,o as TWITTER_BEARER_TOKEN};
